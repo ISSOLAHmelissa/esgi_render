@@ -5,7 +5,7 @@ services:
     repo: https://github.com/ISSOLAHmelissa/esgi_render.git # nouveau repo
     plan: free
     envVars:
-    - key: DATABASE_URL
+ - key: DATABASE_URL
       fromDatabase:
         name: cloud-db
         property: connectionString 
